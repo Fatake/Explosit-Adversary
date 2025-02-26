@@ -3,11 +3,10 @@ import sys
 import requests
 import argparse
 
-def argsp()
+def argsp():
     parser = argparse.ArgumentParser(description='Calculadora, suma/resta/multiplica a y b')
     parser.add_argument('--init', action='store_true')
     parser.add_argument('--close', action='store_true')
-
 
     return parser.parse_args()
 

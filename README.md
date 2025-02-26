@@ -7,7 +7,6 @@ Teclear a mano
 explosit.py --init
 ```
 
-
 ### Despedir
 ```python
 explosit.py --close
