@@ -1,4 +1,4 @@
-# Explosit-Adversari
+# Explosit-Adversary
 Servidor que apoya a los consultores de seguridad Informática en Assesments de Pentesting, Red Teaming, Laboratorios de Hacking (Hack the box, THM), o Certificationes como OSCP, CRTO
 
 ## Invocación

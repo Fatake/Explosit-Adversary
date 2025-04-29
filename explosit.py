@@ -1,20 +1,27 @@
 #!/bin/python3
 import sys
-import requests
 import argparse
+import threading
+import multiprocessing
+import webbrowser
+import socket
+import socketserver
+import http
+import math
+import cmath
 
 def argsp():
-    parser = argparse.ArgumentParser(description='Calculadora, suma/resta/multiplica a y b')
+    parser = argparse.ArgumentParser(description='Explosit it is a server that helps in pentesting assessments.')
     parser.add_argument('--init', action='store_true')
     parser.add_argument('--close', action='store_true')
 
     return parser.parse_args()
 
 def init_explosit():
-    print("explosit adversari active")
+    print("[+] explosit adversary active")
 
 def close_explosit():
-    print("explosit adversari inactive")
+    print("[-] explosit adversary inactive")
 
 def main():
     args = argsp()
